@@ -1,5 +1,9 @@
-# ecommerce-analytics-pipeline
-Initial README structure (not content yet, just template):
+# E-Commerce Analytics Pipeline
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 # E-Commerce Analytics Data Pipeline
 
