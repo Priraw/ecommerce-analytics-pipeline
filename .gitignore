@@ -1,11 +1,64 @@
-venv/
-.env
-*.csv
-*.pkl
-*.pyc
+# .gitignore for Python Data Projects
+
+# Python cache files
 __pycache__/
-.DS_Store
-.ipynb_checkpoints/
-data/raw/
-data/processed/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables (CRITICAL - never commit passwords!)
+.env
+.env.local
+*.env
+
+# Data files (too large for Git)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
 *.db
+*.sqlite
+
+# Model files (too large)
+models/*.pkl
+models/*.h5
+*.pkl
+*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Test coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+```
+
