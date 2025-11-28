@@ -1,0 +1,55 @@
+2025-11-27 22:16:30,859 - __main__ - INFO - ============================================================
+2025-11-27 22:16:30,860 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-27 22:16:30,861 - __main__ - INFO - ============================================================
+2025-11-27 22:35:40,752 - __main__ - INFO - ============================================================
+2025-11-27 22:35:40,752 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-27 22:35:40,752 - __main__ - INFO - ============================================================
+2025-11-28 00:04:03,950 - __main__ - INFO - ============================================================
+2025-11-28 00:04:03,951 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-28 00:04:03,951 - __main__ - INFO - ============================================================
+2025-11-28 00:04:04,166 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-11-28 15:23:32,954 - __main__ - INFO - ============================================================
+2025-11-28 15:23:32,954 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-28 15:23:32,955 - __main__ - INFO - ============================================================
+2025-11-28 15:23:33,110 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-11-28 15:28:50,869 - __main__ - INFO - ============================================================
+2025-11-28 15:28:50,870 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-28 15:28:50,870 - __main__ - INFO - ============================================================
+2025-11-28 15:28:50,979 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-11-28 15:38:56,680 - __main__ - INFO - ============================================================
+2025-11-28 15:38:56,680 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-11-28 15:38:56,680 - __main__ - INFO - ============================================================
+2025-11-28 15:38:56,796 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-11-28 15:38:57,216 - __main__ - INFO -   Columns: ['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'UnitPrice', 'CustomerID', 'Country']
+2025-11-28 15:38:57,261 - __main__ - INFO -   Date range: 1/10/2011 10:04 to 9/9/2011 9:52
+2025-11-28 15:38:57,359 - __main__ - INFO -   Missing values:
+InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+2025-11-28 15:38:57,359 - __main__ - INFO - Transforming data
+2025-11-28 15:38:58,095 - __main__ - INFO - Loading dimension tables
+2025-11-28 15:39:00,953 - __main__ - INFO - Loading fact_transactions
+2025-11-28 15:43:20,995 - __main__ - INFO - Refreshing materialized views
+2025-11-28 15:43:21,408 - __main__ - INFO - Validating data
+2025-11-28 15:43:21,621 - __main__ - INFO - ============================================================
+2025-11-28 15:43:21,621 - __main__ - INFO - DATA VALIDATION RESULTS
+2025-11-28 15:43:21,621 - __main__ - INFO - ============================================================
+2025-11-28 15:43:21,621 - __main__ - INFO -   transaction_count: 392690
+2025-11-28 15:43:21,622 - __main__ - INFO -   customer_count: 4337
+2025-11-28 15:43:21,622 - __main__ - INFO -   product_count: 3664
+2025-11-28 15:43:21,622 - __main__ - INFO -   negative_amounts: 0
+2025-11-28 15:43:21,622 - __main__ - INFO -   total_revenue: 8641555.69
+2025-11-28 15:43:21,622 - __main__ - INFO -   date_range: 2010-12-01 08:26:00 to 2011-12-09 12:50:00
+2025-11-28 15:43:21,622 - __main__ - INFO - ============================================================
+2025-11-28 15:43:21,623 - __main__ - INFO - ============================================================
+2025-11-28 15:43:21,625 - __main__ - INFO - Duration: 264.94 seconds
+2025-11-28 15:43:21,625 - __main__ - INFO - Rows extracted: 541,909
+2025-11-28 15:43:21,625 - __main__ - INFO - Rows loaded: 392,690
+2025-11-28 15:43:21,625 - __main__ - INFO - Data quality: 72.5% retained
+2025-11-28 15:43:21,625 - __main__ - INFO - ============================================================

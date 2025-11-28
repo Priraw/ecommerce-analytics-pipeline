@@ -85,7 +85,7 @@ class EcommerceETL:
                 'Country': str
             }
             
-            self.df_raw = pd.read_csv(filepath, dtype=dtype_dict, encoding='utf-8')
+            self.df_raw = pd.read_csv(filepath, dtype=dtype_dict, encoding='utf-8', encoding_errors='ignore')
             self.stats['rows_extracted'] = len(self.df_raw)
             
             logger.info(f"✓ Extracted {len(self.df_raw):,} rows")

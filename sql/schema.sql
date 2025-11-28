@@ -85,11 +85,11 @@ CREATE INDEX idx_mv_monthly_year_month ON mv_monthly_metrics(year, month);
 
 -- Function to refresh materialized view
 CREATE OR REPLACE FUNCTION refresh_monthly_metrics()
-RETURNS void AS $
+RETURNS void AS $$
 BEGIN
     REFRESH MATERIALIZED VIEW mv_monthly_metrics;
 END;
-$ LANGUAGE plpgsql;
+$$ LANGUAGE plpgsql;
 
 COMMENT ON TABLE dim_customers IS 'Customer dimension with aggregated metrics';
 COMMENT ON TABLE dim_products IS 'Product catalog dimension';
