@@ -90,3 +90,20 @@ dtype: int64
 2025-12-04 20:32:37,583 - __main__ - INFO - Rows loaded: 392,690
 2025-12-04 20:32:37,583 - __main__ - INFO - Data quality: 72.5% retained
 2025-12-04 20:32:37,583 - __main__ - INFO - ============================================================
+2025-12-04 21:52:55,872 - __main__ - INFO - ============================================================
+2025-12-04 21:52:55,873 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-12-04 21:52:55,873 - __main__ - INFO - ============================================================
+2025-12-04 21:52:55,999 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-12-04 21:52:56,464 - __main__ - INFO -   Columns: ['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'UnitPrice', 'CustomerID', 'Country']
+2025-12-04 21:52:56,510 - __main__ - INFO -   Date range: 1/10/2011 10:04 to 9/9/2011 9:52
+2025-12-04 21:52:56,597 - __main__ - INFO -   Missing values:
+InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+2025-12-04 21:52:56,597 - __main__ - INFO - Transforming data
