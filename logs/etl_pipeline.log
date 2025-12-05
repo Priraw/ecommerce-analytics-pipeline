@@ -53,3 +53,40 @@ dtype: int64
 2025-11-28 15:43:21,625 - __main__ - INFO - Rows loaded: 392,690
 2025-11-28 15:43:21,625 - __main__ - INFO - Data quality: 72.5% retained
 2025-11-28 15:43:21,625 - __main__ - INFO - ============================================================
+2025-12-04 20:28:22,180 - __main__ - INFO - ============================================================
+2025-12-04 20:28:22,180 - __main__ - INFO - E-COMMERCE ETL PIPELINE STARTED
+2025-12-04 20:28:22,180 - __main__ - INFO - ============================================================
+2025-12-04 20:28:22,384 - __main__ - INFO - Extracting data from data/raw/ecommerce.csv
+2025-12-04 20:28:22,834 - __main__ - INFO -   Columns: ['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'UnitPrice', 'CustomerID', 'Country']
+2025-12-04 20:28:22,882 - __main__ - INFO -   Date range: 1/10/2011 10:04 to 9/9/2011 9:52
+2025-12-04 20:28:22,972 - __main__ - INFO -   Missing values:
+InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+2025-12-04 20:28:22,973 - __main__ - INFO - Transforming data
+2025-12-04 20:28:23,826 - __main__ - INFO - Loading dimension tables
+2025-12-04 20:28:26,191 - __main__ - INFO - Loading fact_transactions
+2025-12-04 20:32:35,196 - __main__ - INFO - Refreshing materialized views
+2025-12-04 20:32:37,290 - __main__ - INFO - Validating data
+2025-12-04 20:32:37,575 - __main__ - INFO - ============================================================
+2025-12-04 20:32:37,575 - __main__ - INFO - DATA VALIDATION RESULTS
+2025-12-04 20:32:37,575 - __main__ - INFO - ============================================================
+2025-12-04 20:32:37,576 - __main__ - INFO -   transaction_count: 785380
+2025-12-04 20:32:37,576 - __main__ - INFO -   customer_count: 4337
+2025-12-04 20:32:37,576 - __main__ - INFO -   product_count: 3664
+2025-12-04 20:32:37,577 - __main__ - INFO -   negative_amounts: 0
+2025-12-04 20:32:37,578 - __main__ - INFO -   total_revenue: 17283111.38
+2025-12-04 20:32:37,578 - __main__ - INFO -   date_range: 2010-12-01 08:26:00 to 2011-12-09 12:50:00
+2025-12-04 20:32:37,578 - __main__ - INFO - ============================================================
+2025-12-04 20:32:37,578 - __main__ - INFO - ============================================================
+2025-12-04 20:32:37,582 - __main__ - INFO - Duration: 255.40 seconds
+2025-12-04 20:32:37,583 - __main__ - INFO - Rows extracted: 541,909
+2025-12-04 20:32:37,583 - __main__ - INFO - Rows loaded: 392,690
+2025-12-04 20:32:37,583 - __main__ - INFO - Data quality: 72.5% retained
+2025-12-04 20:32:37,583 - __main__ - INFO - ============================================================

@@ -1,8 +1,3 @@
-"""
-E-Commerce Analytics ETL Pipeline
-Extracts data from CSV, transforms, loads into PostgreSQL star schema
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime
