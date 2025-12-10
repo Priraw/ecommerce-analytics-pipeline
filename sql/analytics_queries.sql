@@ -109,3 +109,24 @@ ORDER BY purchase_frequency DESC;
 -- After index creation: <2 seconds (87% improvement)
 CREATE INDEX idx_products_sales ON dim_products(product_id);
 CREATE INDEX idx_customer_sales ON dim_customers(customer_id);
+
+-- Check table row counts
+SELECT 'dim_customers' as table_name, COUNT(*) as row_count FROM dim_customers
+UNION ALL
+SELECT 'dim_products', COUNT(*) FROM dim_products
+UNION ALL
+SELECT 'dim_dates', COUNT(*) FROM dim_dates
+UNION ALL
+SELECT 'fact_transactions', COUNT(*) FROM fact_transactions;
+
+-- Example query log table structure
+CREATE TABLE query_performance_log (
+    log_id SERIAL PRIMARY KEY,
+    query_name VARCHAR(100),
+    execution_time_ms INTEGER,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Sample insert
+INSERT INTO query_performance_log (query_name, execution_time_ms)
+VALUES ('Monthly Revenue', 1200);
