@@ -13,8 +13,8 @@
 📊 [View Full Dashboard (PDF)](ecommerce_analytics_dashboard.pdf)
 
 ### Page Previews:
-![Executive Summary](screenshots/page1_executive.png)
-![Revenue Analysis](screenshots/page2_revenue.png)
+![Executive Summary](screenshots-dashboard/page1_executive.png)
+![Revenue Analysis](screenshots-dashboard/page2_revenue.png)
 
 ## Overview
 End-to-end data pipeline processing e-commerce transactions, from raw data to analytics dashboard.
