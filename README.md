@@ -15,7 +15,7 @@ End-to-end data pipeline processing e-commerce transactions, from raw data to an
 
 ## Architecture
 
-![System Architecture](docs/architecture_diagram.png)
+![System Architecture](https://www.figma.com/design/QTEDsvcPt41HmJTUIkXsW5/Untitled?node-id=7-110&t=KkRBBiq7I1GhkIzf-1docs/architecture_diagram.png)
 
 ### Data Flow
 1. Extract: Raw CSV → Python pandas
