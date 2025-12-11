@@ -14,7 +14,15 @@
 End-to-end data pipeline processing e-commerce transactions, from raw data to analytics dashboard.
 
 ## Architecture
-[Will add architecture diagram]
+
+![System Architecture](docs/architecture_diagram.png)
+
+### Data Flow
+1. Extract: Raw CSV → Python pandas
+2. Transform: Validation, cleaning, feature engineering
+3. Load: PostgreSQL star schema
+4. Optimize: Indexes + materialized views
+5. Visualize: Power BI dashboard
 
 ## Tech Stack
 - **Data Processing:** Python (pandas, NumPy)
