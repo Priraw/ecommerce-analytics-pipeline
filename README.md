@@ -8,13 +8,26 @@
 # E-Commerce Analytics Data Pipeline
 
 **Status:** 🚀 Live & Deployed
-**Live Dashboard:** [Power BI Link]
+## Dashboard Preview
+
+📊 [View Full Dashboard (PDF)](ecommerce_analytics_dashboard.pdf)
+
+### Page Previews:
+![Executive Summary](screenshots-dashboard/page1_executive.png)
+![Revenue Analysis](screenshots-dashboard/page2_revenue.png)
 
 ## Overview
 End-to-end data pipeline processing e-commerce transactions, from raw data to analytics dashboard.
 
 ## Architecture
-[Will add architecture diagram]
+
+https://www.figma.com/design/QTEDsvcPt41HmJTUIkXsW5/Untitled?node-id=7-110&t=KkRBBiq7I1GhkIzf-1
+### Data Flow
+1. Extract: Raw CSV → Python pandas
+2. Transform: Validation, cleaning, feature engineering
+3. Load: PostgreSQL star schema
+4. Optimize: Indexes + materialized views
+5. Visualize: Power BI dashboard
 
 ## Tech Stack
 - **Data Processing:** Python (pandas, NumPy)
