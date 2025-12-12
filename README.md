@@ -22,6 +22,14 @@ End-to-end data pipeline processing e-commerce transactions, from raw data to an
 ## Architecture
 
 https://www.figma.com/design/QTEDsvcPt41HmJTUIkXsW5/Untitled?node-id=7-110&t=KkRBBiq7I1GhkIzf-1
+
+- **Database:** PostgreSQL (star schema)
+- **ETL:** Python (pandas, psycopg2)
+- **Visualization:** Power BI
+- **Data Quality:** 75.1% retention after cleaning
+
+[See full documentation →](docs/architecture.md)
+
 ### Data Flow
 1. Extract: Raw CSV → Python pandas
 2. Transform: Validation, cleaning, feature engineering
@@ -36,9 +44,12 @@ https://www.figma.com/design/QTEDsvcPt41HmJTUIkXsW5/Untitled?node-id=7-110&t=KkR
 - **Deployment:** [Details TBD]
 - **Version Control:** Git
 
-## Key Metrics Achieved
-- Query optimization: 15s → <2s (87% improvement)
-- Data pipeline reliability: 99.9% uptime
-- Dashboard refresh: Real-time
+## 📊 Results
 
-## Project Structure
+✅ **406,829 transactions** processed  
+✅ **4,372 customers** analyzed  
+✅ **3,684 products** cataloged  
+✅ **$9.7M revenue** tracked  
+✅ **87% query performance** improvement (15s → 2s)  
+
+
