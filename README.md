@@ -10,7 +10,7 @@
 **Status:** 🚀 Live & Deployed
 ## Dashboard Preview
 
-📊 [View Full Dashboard (PDF)](ecommerce_analytics_dashboard.pdf)
+📊 [View Full Dashboard (PDF)](https://github.com/Priraw/ecommerce-analytics-pipeline/blob/f50ae616a633b10c28cdaa711e91783d87d6ea31/ecommerce-analytics-dashboard.pdf)
 
 ### Page Previews:
 ![Executive Summary](screenshots-dashboard/page1_executive.png)
